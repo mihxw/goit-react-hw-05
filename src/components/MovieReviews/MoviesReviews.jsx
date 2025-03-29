@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import {fetchReviewsMovies} from '../pages/moviesApi'
+import {fetchReviewsMovies} from '../../pages/moviesApi'
 import { useEffect, useState } from 'react';
 
 export default function MoviesReviews() { 

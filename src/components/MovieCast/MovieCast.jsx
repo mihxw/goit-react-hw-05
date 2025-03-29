@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { fetchCreditsMovies } from '../pages/moviesApi';
+import { fetchCreditsMovies } from '../../pages/moviesApi';
 import { useEffect, useState } from 'react';
 
 export default function MovieCast() {
