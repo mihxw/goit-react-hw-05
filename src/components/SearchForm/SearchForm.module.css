@@ -16,9 +16,7 @@
 
 .input:focus {
     border-color: #007BFF;
-    /* Змінює колір рамки при фокусі */
     outline: none;
-    /* Сховати стандартне обведення */
 }
 
 .button {
@@ -36,6 +34,4 @@
 .button:hover {
     background-color: #f50957;
     color: #f6eff1;
-   
-    
 }

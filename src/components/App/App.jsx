@@ -6,7 +6,7 @@ import { lazy, Suspense } from "react";
 const HomePage = lazy(()=> import('../../pages/HomePages'));
 const MoviesPage = lazy(() => import('../../pages/MoviesPage'));
 const MovieDetailsPage = lazy(()=> import('../../pages/MovieDetailsPage'));
-const MovieCast = lazy(() => import('../MovieCast'))
+const MovieCast = lazy(() => import('../MovieCast/MovieCast'));
 const MovieReviews = lazy(() => import('../../components/MovieReviews/MoviesReviews'))
 const NotFoundPage = lazy(()=> import('../../pages/NotFoundPage'));
 
